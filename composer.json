@@ -1,0 +1,22 @@
+{
+    "name": "greatsami/common",
+    "description": "This is a package for the microservices",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sami Mansour",
+            "email": "samiman.net@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Microservices\\": "src"
+        }
+    },
+    "require": {
+        "laravel/framework": "^9.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
