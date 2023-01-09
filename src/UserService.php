@@ -8,6 +8,7 @@ class UserService
 {
     private $endpoint;
 
+
     public function __construct()
     {
         $this->endpoint = env('USERS_ENDPOINT');
